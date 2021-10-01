@@ -16,7 +16,7 @@ console.log(estadosNorte());
 
 let fucaoStrigs = (str1, str2) => {
     let parametro1 = str1.toUpperCase(str1);
-    let juntandoStrigs = parametro1.concat(str2);
+    let juntandoStrigs = parametro1.concat( " " + str2);
     return (juntandoStrigs);
 }
 
